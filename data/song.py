@@ -1,6 +1,7 @@
 from datetime import datetime
 import mongoengine
 
+# Creating schema for song object
 class song(mongoengine.Document):
     meta = {
         'db_alias': 'core',

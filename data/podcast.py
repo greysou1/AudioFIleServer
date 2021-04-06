@@ -1,5 +1,7 @@
 from datetime import datetime
 import mongoengine
+
+# Creating schema for podcast object
 class podcast(mongoengine.Document):
     meta = {
         'db_alias': 'core',

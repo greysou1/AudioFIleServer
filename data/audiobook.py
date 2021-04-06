@@ -1,6 +1,7 @@
 from datetime import datetime
 import mongoengine
 
+# Creating schema for audiobook object
 class audiobook(mongoengine.Document):
     meta = {
         'db_alias': 'core',
