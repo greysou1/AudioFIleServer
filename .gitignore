@@ -1,1 +1,5 @@
 Python_Test.pdf
+env/
+.vscode
+__pycache__/
+data/__pycache__/
